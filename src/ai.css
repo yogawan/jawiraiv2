@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  padding: 12px;
+  margin-top: 128px;
+} h2 {
+  margin: 0;
+  margin-top: 24px;
+  padding: 12px;
+}
+
+.form {
+  width: 100%;
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+} .form .form-container {
+  background-color: #171717;
+  border-radius: 16px;
+  display: flex;
+  padding: 12px;
+} input {
+  padding: 16px;
+  border: none;
+  background-color: #171717;
+  border-radius: 12px;
+  width: 100%;
+  color: white;
+} .buttonSubmit {
+  border: none;
+  background-color: white;
+  padding: 16px;
+  margin-left: 12px;
+  border-radius: 12px;
+}
+
+/* .horizontal-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+} .card-question {
+  display: inline-flex;
+  flex-wrap: nowrap;
+} .buttonCard {
+  border: none;
+  border: 1px solid #FFFFFF25;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 100px;
+  margin-right: 3px;
+} */
+
+.ai {
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .ai {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* Media query for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .ai {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+  .ai {
+    padding-left: 360px;
+    padding-right: 360px;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #FFFFFF25;
+}
+
+.answer {
+  padding: 12px;
+  background-color: black;
+  border-radius: 16px;
+  /* padding-bottom: 1440px; */
+}
